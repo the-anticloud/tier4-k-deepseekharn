@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_DEEPSEEKHARN",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "ai-boost/awesome-harness-engineering",
+  "commit": "7df8f81c2128",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 53.31,
+      "min": 45.07,
+      "max": 61.57,
+      "all": [
+        58.14,
+        61.57,
+        45.07,
+        52.79,
+        49.0
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_DEEPSEEKHARN (ai-boost/awesome-harness-engineering) \u2014 12 files, 245 source lines, licence CC0-1.0, primary language ['Python']",
+      "token_count": 42,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "deep",
+        "##see",
+        "##khar",
+        "##n",
+        "(",
+        "ai",
+        "-",
+        "boost",
+        "/",
+        "awesome",
+        "-",
+        "harness",
+        "-",
+        "engineering",
+        ")",
+        "\u2014",
+        "12"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5786,
+      "classification_latency_ms": 94.97,
+      "status": "PASS"
+    }
+  }
+}
